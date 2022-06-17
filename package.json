@@ -20,7 +20,7 @@
     "build-storybook": "build-storybook",
     "chromatic": "npx -p chromatic@latest chromatic --zip",
     "chromatic-base-dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com yarn chromatic",
-    "chromatic-dev": "yarn chromatic-base-dev --project-token=197da9db3b6a --force-rebuild"
+    "chromatic-dev": "yarn chromatic-base-dev --project-token=197da9db3b6a"
   },
   "eslintConfig": {
     "extends": [
